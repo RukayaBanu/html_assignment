@@ -1,0 +1,149 @@
+@media only screen and (min-width: 1200px){ 
+    .container {
+      max-width: 1170px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .container {
+      padding:0 10px;
+    }
+    .img-text { 
+        transform: translate(-26%, 50%);
+        width: 50%;
+    }
+    .img-text h2 {
+        font-size: 24px;
+    }
+    .img-text h1 {
+        font-size: 51px;
+    }
+    .left, .right { 
+      width: 100%;
+    }
+    .cont-text h1 {
+      font-size: 30px;
+    }
+    .cont-text .imgtxt {
+      font-size: 50px;
+    }
+    .icon_ar .fa-ar {
+      position: absolute;
+      left: 42%;
+    }
+    .right img{
+      width:50%; 
+
+    }
+    .text-c{
+      text-align: center;
+    }
+    .second-sec h3 {
+      font-size: 30px; 
+      padding-left:  0px;
+  }
+  .col-container {
+    display:block;
+    width: 100%;
+  }
+  .col {
+    display: block;
+    padding: 16px;
+}
+  .video-bx {
+    width: 360px;
+    height: 323px;
+  }
+  .w-050 ,.w-040 {
+    width: 100%;
+  } 
+  .pt-60{
+    padding:60px 0;
+  }
+  .a-text1 h2{
+    color:#000;
+  } 
+  .icon-video {
+    position: absolute;
+    top: -201px;
+    left: 159px;
+  }
+  .footer-t{ 
+    padding: 190px 0px 0;
+}
+.footer-t .w-70 {
+width: 100%;
+}
+.rd-form-inline .form-button { 
+    margin-top: 15px;
+    position: relative;
+    right: 107px; 
+    top: 5px;
+    display: inline-block;
+}
+.footer-links,  .main-footer, .follow {
+display: block;
+}
+.main-footer {
+  padding: 0 ;
+}
+.footer-t .p-t-b {
+  padding: 20px;
+}
+.footer-t .w-60,  .first-col, .second-col  {
+width: 100%;
+}
+.footer-t .w-40{
+width: 100%;
+}
+.left-list {
+border-right: none;
+}
+.right-list li {
+padding-left: 0px;
+}
+.second-col .left-list, .right-list {
+ float: none; 
+} 
+.copyright{
+display: none;
+}
+.copyright1{
+padding:20px;
+background-color: #f3e163;
+color:#505050;
+}
+
+  }
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .img-text { 
+        left: 25%;
+        transform: translate(-30%, -150%);
+    } 
+  }
+  @media screen and (min-width:800px) {
+    .nav-list {
+        display: block !important;
+   }
+   .nav-mobile {
+      display: none;
+      position: absolute;
+      top: 20px;
+      right: 0;
+      background: transparent;
+      height: 55px;
+      width: 70px;
+    }
+    .brand {
+      position: absolute;
+     padding-left: 0px;
+    }
+  }
